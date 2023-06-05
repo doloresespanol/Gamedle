@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> list = new ArrayList<>();
 
     @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();

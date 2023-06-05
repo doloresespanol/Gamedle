@@ -11,6 +11,9 @@ import android.widget.Button;
 public class IntroActivity extends AppCompatActivity {
 
     @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
